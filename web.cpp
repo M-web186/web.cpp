@@ -7,9 +7,9 @@ int main() {
 
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < width; ++j) {
-            std::cout << "*";
+            cout << "*";
         }
-        std::cout << std::endl;
+        cout << endl;
     }
 
     return 0;
